@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  /* Core Colors */
+  --background: 0 0% 100%;           /* oklch(1 0 0) - Pure white */
+  --foreground: 0 0% 14.5%;          /* oklch(0.145 0 0) - Near black text */
+  --card: 0 0% 100%;                 /* oklch(1 0 0) - White cards */
+  --card-foreground: 0 0% 14.5%;     /* oklch(0.145 0 0) - Dark card text */
+
+  /* Interactive Elements */
+  --primary: 0 0% 20.5%;             /* oklch(0.205 0 0) - Dark gray/black */
+  --primary-foreground: 0 0% 98.5%;  /* oklch(0.985 0 0) - White on primary */
+  --secondary: 0 0% 97%;             /* oklch(0.97 0 0) - Light gray */
+  --secondary-foreground: 0 0% 20.5%;/* oklch(0.205 0 0) - Dark text on secondary */
+  --accent: 0 0% 97%;                /* oklch(0.97 0 0) - Light accent */
+  --accent-foreground: 0 0% 20.5%;   /* oklch(0.205 0 0) - Dark text on accent */
+
+  /* States & Feedback */
+  --muted: 0 0% 97%;                 /* oklch(0.97 0 0) - Muted backgrounds */
+  --muted-foreground: 0 0% 55.6%;    /* oklch(0.556 0 0) - Muted text */
+  --destructive: 27.325 40% 57.7%;   /* oklch(0.577 0.245 27.325) - Red/error */
+  --destructive-foreground: 0 0% 98.5%;/* oklch(0.985 0 0) - White on destructive */
+
+  /* Borders & Inputs */
+  --border: 0 0% 92.2%;              /* oklch(0.922 0 0) - Subtle borders */
+  --input: 0 0% 92.2%;               /* oklch(0.922 0 0) - Input borders */
+  --ring: 0 0% 70.8%;                /* oklch(0.708 0 0) - Focus rings */
+
+  /* Charts */
+  --chart-1: 41.116 50% 64.6%;       /* oklch(0.646 0.222 41.116) - Orange */
+  --chart-2: 184.704 20% 60%;        /* oklch(0.6 0.118 184.704) - Teal */
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
